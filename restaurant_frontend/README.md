@@ -15,6 +15,8 @@ Create a `.env.local` with:
 
 See `.env.example`.
 
+To set up the database schema and seed sample data, see `.init/setup_supabase.sql.md` and use `.init/run_supabase_setup.sh` with a `db_connection.txt` file containing your psql connection string.
+
 ## Scripts
 - npm run dev
 - npm run build
